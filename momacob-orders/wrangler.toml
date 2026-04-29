@@ -1,3 +1,5 @@
-name = "momacob-worker"
-main = "worker.js"
-compatibility_date = "2024-01-01"
+name                   = "momacob-worker"
+main                   = "worker.js"
+compatibility_date     = "2026-04-29"
+workers_dev            = true
+preview_urls           = false
