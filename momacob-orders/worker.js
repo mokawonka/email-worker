@@ -48,6 +48,7 @@ async function handleOrder(body, env) {
     });
     return cors({ success: true, ref }, 200);
   } catch (err) {
+    console.error('Resend error:', err.message);
     return cors({ error: err.message }, 500);
   }
 }
